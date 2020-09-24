@@ -4,6 +4,5 @@ def reverse_each_word(sentence)
 
   sentence.each do |element|
     element = element.reverse!
-    element.join
     end
 end
